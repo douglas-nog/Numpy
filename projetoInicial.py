@@ -4,5 +4,5 @@ import numpy as np
 
 km = np.loadtxt('carros-km.txt')
 
-print(km)
-
+#informa expressamente que o documento recebido pussui números.
+anos = np.loadtxt('carros-anos.txt', dtype=int)
