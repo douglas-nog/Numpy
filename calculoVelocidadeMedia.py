@@ -10,3 +10,4 @@ anos = np.loadtxt('carros-anos.txt', dtype=int)
 km_media = km / (2022 - anos)
 
 print(km_media)
+
